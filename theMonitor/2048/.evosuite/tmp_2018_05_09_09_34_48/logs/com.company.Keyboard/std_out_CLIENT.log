@@ -1,0 +1,112 @@
+* Starting client
+* Connecting to master process on port 8458
+* Analyzing classpath: 
+  - C:/Users/Dell E6420/IdeaProjects/2048/target/classes
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\deploy.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\access-bridge-64.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\cldrdata.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\dnsns.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jaccess.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jfxrt.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\localedata.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\nashorn.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunec.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunjce_provider.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunmscapi.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunpkcs11.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\zipfs.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\javaws.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfxswt.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\management-agent.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\plugin.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar
+  - C:\Users\Dell E6420\IdeaProjects\2048\target\test-classes
+  - C:\Users\Dell E6420\IdeaProjects\2048\target\classes
+  - D:\IntelliJ IDEA Community Edition 2018.1.2\lib\junit-4.12.jar
+  - D:\IntelliJ IDEA Community Edition 2018.1.2\lib\hamcrest-core-1.3.jar
+  - C:\Users\Dell E6420\.m2\repository\junit\junit\4.12\junit-4.12.jar
+  - C:\Users\Dell E6420\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+[MASTER] 09:38:07.873 [pool-2-thread-1] WARN  TestUsageChecker - class javax.swing.JSlider$1SmartHashtable looks like an anonymous class, ignoring it (although reflection says false) SmartHashtable
+* Finished analyzing classpath
+* Generating tests for class com.company.Keyboard
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 12 tests from C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\evosuite-seeds\com.company.Keyboard.seed
+* Total number of test goals: 
+  - Line 12
+  - Branch 16
+  - Exception 0
+  - MutationFactory 108
+  - Output 2
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 16
+* Using seed 1525833472429
+* Starting evolution
+* Search finished after 546s and 6012 generations, 2023569 statements, best individual has fitness: 8.166666666666668
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 92%
+* Total number of goals: 12
+* Number of covered goals: 11
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 16
+* Number of covered goals: 14
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 93%
+* Total number of goals: 108
+* Number of covered goals: 100
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 50%
+* Total number of goals: 2
+* Number of covered goals: 1
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 88%
+* Total number of goals: 16
+* Number of covered goals: 14
+* Generated 9 tests with total length 17
+* Resulting test suite's coverage: 90% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 17%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.net.URLPermission: 
+         *:* http://www.someFakeButWellFormedURL.org/fooExample: 1
+  - java.io.FilePermission: 
+         write C:\Users\DELLE6~1\AppData\Local\Temp\+~JT3413994719907406003.tmp: 1
+         write C:\Users\DELLE6~1\AppData\Local\Temp\+~JT5382955228585457106.tmp: 1
+         write C:\Users\DELLE6~1\AppData\Local\Temp\+~JT8722870602798689327.tmp: 1
+         write C:\Users\DELLE6~1\AppData\Local\Temp\+~JT4034749873268623569.tmp: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 12
+* Writing JUnit test case 'Keyboard_ESTest' to C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\tests
+* Done!
+

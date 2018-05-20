@@ -1,6 +1,600 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Project>
-    <totalNumberOfTestableClasses>1</totalNumberOfTestableClasses>
+    <totalNumberOfTestableClasses>7</totalNumberOfTestableClasses>
+    <cut>
+        <fullNameOfTargetClass>com.company.GameBoard</fullNameOfTargetClass>
+        <fullNameOfTestSuite>com.company.GameBoard_ESTest</fullNameOfTestSuite>
+        <generation>
+            <id>0</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>660</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_01_25_42\logs\com.company.GameBoard\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_01_25_42\logs\com.company.GameBoard\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_01_25_42\logs\com.company.GameBoard\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_01_25_42\logs\com.company.GameBoard\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_01_25_42\tests\com\company\GameBoard_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>2</numberOfTests>
+                <totalNumberOfStatements>3</totalNumberOfStatements>
+                <totalEffortInSeconds>414</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.2</coverageValue>
+                    <coverageBitString>1111111110000000000000000000000000000000000000000000000011111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111100000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.09</coverageValue>
+                    <coverageBitString>111111101111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.3</coverageValue>
+                    <coverageBitString>11111111111111111110111111111110111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110011111111111111111111111111111111111111111111111111111011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>0.2</coverageValue>
+                    <coverageBitString>10000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>00000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.08</coverageValue>
+                    <coverageBitString>100111110111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+        <generation>
+            <id>1</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>600</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_02_01_37\logs\com.company.GameBoard\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_02_01_37\logs\com.company.GameBoard\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_02_01_37\logs\com.company.GameBoard\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_02_01_37\logs\com.company.GameBoard\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_02_01_37\tests\com\company\GameBoard_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>3</numberOfTests>
+                <totalNumberOfStatements>5</totalNumberOfStatements>
+                <totalEffortInSeconds>391</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.2</coverageValue>
+                    <coverageBitString>1111111110000000000000000000000000000000000000000000000011111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111100000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.09</coverageValue>
+                    <coverageBitString>111111101111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.3</coverageValue>
+                    <coverageBitString>11111111111111111110111111111110111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110011111111111111111111111111111111111111111111111111111011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>0.2</coverageValue>
+                    <coverageBitString>10000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>00000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.08</coverageValue>
+                    <coverageBitString>100111110111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+        <generation>
+            <id>2</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>4200</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.GameBoard\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.GameBoard\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.GameBoard\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.GameBoard\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\tests\com\company\GameBoard_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>2</numberOfTests>
+                <totalNumberOfStatements>5</totalNumberOfStatements>
+                <totalEffortInSeconds>3757</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.2</coverageValue>
+                    <coverageBitString>1111111110000000000000000000000000000000000000000000000011111111111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111111111111111100000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.09</coverageValue>
+                    <coverageBitString>111111101111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>0.5</coverageValue>
+                    <coverageBitString>01</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.3</coverageValue>
+                    <coverageBitString>11111111111111111110111111111110111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110011111111111111111111111111111111111111111111111111111011111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>0.4</coverageValue>
+                    <coverageBitString>11000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>0.4</coverageValue>
+                    <coverageBitString>11000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.08</coverageValue>
+                    <coverageBitString>100111110111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+    </cut>
+    <cut>
+        <fullNameOfTargetClass>com.company.GamePlay</fullNameOfTargetClass>
+        <fullNameOfTestSuite>com.company.GamePlay_ESTest</fullNameOfTestSuite>
+        <generation>
+            <id>0</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>123</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_01_25_42\logs\com.company.GamePlay\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_01_25_42\logs\com.company.GamePlay\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_01_25_42\logs\com.company.GamePlay\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_01_25_42\logs\com.company.GamePlay\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_01_25_42\tests\com\company\GamePlay_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>1</numberOfTests>
+                <totalNumberOfStatements>1</totalNumberOfStatements>
+                <totalEffortInSeconds>75</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.09</coverageValue>
+                    <coverageBitString>1111110000000000000000000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.06</coverageValue>
+                    <coverageBitString>001000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>0.14</coverageValue>
+                    <coverageBitString>1000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>0000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.06</coverageValue>
+                    <coverageBitString>001000000000000000</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+        <generation>
+            <id>1</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>599</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_02_01_37\logs\com.company.GamePlay\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_02_01_37\logs\com.company.GamePlay\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_02_01_37\logs\com.company.GamePlay\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_02_01_37\logs\com.company.GamePlay\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_02_01_37\tests\com\company\GamePlay_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>1</numberOfTests>
+                <totalNumberOfStatements>1</totalNumberOfStatements>
+                <totalEffortInSeconds>327</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.09</coverageValue>
+                    <coverageBitString>1111110000000000000000000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.06</coverageValue>
+                    <coverageBitString>001000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>0.14</coverageValue>
+                    <coverageBitString>1000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>0000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.06</coverageValue>
+                    <coverageBitString>001000000000000000</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+        <generation>
+            <id>2</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>827</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.GamePlay\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.GamePlay\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.GamePlay\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.GamePlay\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\tests\com\company\GamePlay_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>1</numberOfTests>
+                <totalNumberOfStatements>1</totalNumberOfStatements>
+                <totalEffortInSeconds>488</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.09</coverageValue>
+                    <coverageBitString>1111110000000000000000000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.06</coverageValue>
+                    <coverageBitString>001000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>0.14</coverageValue>
+                    <coverageBitString>1000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>0000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.06</coverageValue>
+                    <coverageBitString>001000000000000000</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+    </cut>
+    <cut>
+        <fullNameOfTargetClass>com.company.Point</fullNameOfTargetClass>
+        <fullNameOfTestSuite>com.company.Point_ESTest</fullNameOfTestSuite>
+        <generation>
+            <id>0</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>367</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Point\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Point\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Point\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Point\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\tests\com\company\Point_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>1</numberOfTests>
+                <totalNumberOfStatements>1</totalNumberOfStatements>
+                <totalEffortInSeconds>9</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+    </cut>
+    <cut>
+        <fullNameOfTargetClass>com.company.Main</fullNameOfTargetClass>
+        <fullNameOfTestSuite>com.company.Main_ESTest</fullNameOfTestSuite>
+        <generation>
+            <id>0</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>367</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Main\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Main\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Main\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Main\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\tests\com\company\Main_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>2</numberOfTests>
+                <totalNumberOfStatements>3</totalNumberOfStatements>
+                <totalEffortInSeconds>197</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.18</coverageValue>
+                    <coverageBitString>11000000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.0</coverageValue>
+                    <coverageBitString>00000000</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString></coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>0.5</coverageValue>
+                    <coverageBitString>10</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+    </cut>
+    <cut>
+        <fullNameOfTargetClass>com.company.Keyboard</fullNameOfTargetClass>
+        <fullNameOfTestSuite>com.company.Keyboard_ESTest</fullNameOfTestSuite>
+        <generation>
+            <id>0</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>904</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Keyboard\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Keyboard\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Keyboard\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Keyboard\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\tests\com\company\Keyboard_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>9</numberOfTests>
+                <totalNumberOfStatements>17</totalNumberOfStatements>
+                <totalEffortInSeconds>613</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.92</coverageValue>
+                    <coverageBitString>011111111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>0.88</coverageValue>
+                    <coverageBitString>1111111111110110</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.93</coverageValue>
+                    <coverageBitString>111111111110111110111111111111111111111111111111111111111111111111111111111111011111111111111111111001110001</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.5</coverageValue>
+                    <coverageBitString>10</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>0.88</coverageValue>
+                    <coverageBitString>1111111111110110</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+    </cut>
+    <cut>
+        <fullNameOfTargetClass>com.company.DrawUtils</fullNameOfTargetClass>
+        <fullNameOfTestSuite>com.company.DrawUtils_ESTest</fullNameOfTestSuite>
+        <generation>
+            <id>0</id>
+            <failed>false</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>443</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.DrawUtils\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.DrawUtils\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.DrawUtils\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.DrawUtils\std_out_MASTER.log</std_out_MASTER>
+            <suite>
+                <fullPathOfTestSuite>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\tests\com\company\DrawUtils_ESTest.java</fullPathOfTestSuite>
+                <numberOfTests>10</numberOfTests>
+                <totalNumberOfStatements>42</totalNumberOfStatements>
+                <totalEffortInSeconds>242</totalEffortInSeconds>
+                <coverage>
+                    <criterion>LineCoverage</criterion>
+                    <coverageValue>0.88</coverageValue>
+                    <coverageBitString>01111111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>BranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>ExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>WeakMutationScore</criterion>
+                    <coverageValue>0.75</coverageValue>
+                    <coverageBitString>1101</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>OutputCoverage</criterion>
+                    <coverageValue>0.83</coverageValue>
+                    <coverageBitString>011111</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>MethodNoExceptionCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>11</coverageBitString>
+                </coverage>
+                <coverage>
+                    <criterion>CBranchCoverage</criterion>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111</coverageBitString>
+                </coverage>
+            </suite>
+        </generation>
+    </cut>
     <cut>
         <fullNameOfTargetClass>com.company.Tile</fullNameOfTargetClass>
         <fullNameOfTestSuite>com.company.Tile_ESTest</fullNameOfTestSuite>
@@ -8,21 +602,21 @@
             <id>0</id>
             <failed>false</failed>
             <modified>true</modified>
-            <timeBudgetInSeconds>180</timeBudgetInSeconds>
+            <timeBudgetInSeconds>1287</timeBudgetInSeconds>
             <memoryInMB>2000</memoryInMB>
-            <std_err_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_08_23_55_58\logs\com.company.Tile\std_err_CLIENT.log</std_err_CLIENT>
-            <std_out_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_08_23_55_58\logs\com.company.Tile\std_out_CLIENT.log</std_out_CLIENT>
-            <std_err_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_08_23_55_58\logs\com.company.Tile\std_err_MASTER.log</std_err_MASTER>
-            <std_out_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_08_23_55_58\logs\com.company.Tile\std_out_MASTER.log</std_out_MASTER>
+            <std_err_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Tile\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Tile\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Tile\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\logs\com.company.Tile\std_out_MASTER.log</std_out_MASTER>
             <suite>
-                <fullPathOfTestSuite>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_08_23_55_58\tests\com\company\Tile_ESTest.java</fullPathOfTestSuite>
+                <fullPathOfTestSuite>C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\tests\com\company\Tile_ESTest.java</fullPathOfTestSuite>
                 <numberOfTests>27</numberOfTests>
-                <totalNumberOfStatements>55</totalNumberOfStatements>
-                <totalEffortInSeconds>156</totalEffortInSeconds>
+                <totalNumberOfStatements>53</totalNumberOfStatements>
+                <totalEffortInSeconds>125</totalEffortInSeconds>
                 <coverage>
                     <criterion>LineCoverage</criterion>
-                    <coverageValue>0.99</coverageValue>
-                    <coverageBitString>111111111111111111111111111111111111111111111111111111111111111110111111111111</coverageBitString>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>111111111111111111111111111111111111111111111111111111111111111111111111111111</coverageBitString>
                 </coverage>
                 <coverage>
                     <criterion>BranchCoverage</criterion>
@@ -51,8 +645,8 @@
                 </coverage>
                 <coverage>
                     <criterion>MethodNoExceptionCoverage</criterion>
-                    <coverageValue>0.92</coverageValue>
-                    <coverageBitString>1111110111111</coverageBitString>
+                    <coverageValue>1.0</coverageValue>
+                    <coverageBitString>1111111111111</coverageBitString>
                 </coverage>
                 <coverage>
                     <criterion>CBranchCoverage</criterion>

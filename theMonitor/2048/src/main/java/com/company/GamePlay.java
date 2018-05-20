@@ -1,4 +1,5 @@
 package com.company;
+
 import javax.swing.JPanel;
 
 import java.awt.*;
@@ -9,7 +10,7 @@ import java.awt.image.BufferedImage;
 //The Runnable interface defines a single method: run(), meant to contain the code executed in the thread
 //The listener interface for receiving keyboard events (keystrokes).
 
-public class GamePlay extends JPanel implements KeyListener,Runnable {
+public class GamePlay extends JPanel implements KeyListener, Runnable {
 
     private static final long serialVersionUID = 1L;
     public static final int WIDTH = 500;    // WIDTH of the Board Game
@@ -53,7 +54,7 @@ public class GamePlay extends JPanel implements KeyListener,Runnable {
     }
 
     @Override
-    public void run(){ // Run thread
+    public void run() { // Run thread
 
         int fps = 0, updates = 0;
         long fpsTimer = System.currentTimeMillis();
@@ -63,11 +64,11 @@ public class GamePlay extends JPanel implements KeyListener,Runnable {
         double then = System.nanoTime();
         double unprocessed = 0;
 
-        while(running) {
+        while (running) {
 
             boolean shouldRender = false;
             double now = System.nanoTime();
-            unprocessed += (now - then)/nsPerUpdate;
+            unprocessed += (now - then) / nsPerUpdate;
             then = now;
             //update queue
             while (unprocessed >= 1) {
@@ -90,7 +91,7 @@ public class GamePlay extends JPanel implements KeyListener,Runnable {
             }
         }
         //FPS Timer
-        if(System.currentTimeMillis() - fpsTimer > 1000){
+        if (System.currentTimeMillis() - fpsTimer > 1000) {
             System.out.printf("%d fps %d updates", fps, updates);
             System.out.println();
             fps = 0;
@@ -99,15 +100,15 @@ public class GamePlay extends JPanel implements KeyListener,Runnable {
         }
     }
 
-    public synchronized  void start(){
-        if(running) return;
+    public synchronized void start() {
+        if (running) return;
         running = true;
-        game = new Thread(this,"game demo");
+        game = new Thread(this, "game demo");
         game.start();
     }
 
-    public synchronized  void stop(){
-        if(!running) return;
+    public synchronized void stop() {
+        if (!running) return;
         running = false;
         System.exit(0);
     }

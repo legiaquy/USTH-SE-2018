@@ -1,0 +1,107 @@
+* Starting client
+* Connecting to master process on port 21532
+* Analyzing classpath: 
+  - C:/Users/Dell E6420/IdeaProjects/2048/target/classes
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\deploy.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\access-bridge-64.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\cldrdata.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\dnsns.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jaccess.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\jfxrt.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\localedata.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\nashorn.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunec.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunjce_provider.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunmscapi.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\sunpkcs11.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext\zipfs.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\javaws.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfxswt.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\management-agent.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\plugin.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar
+  - C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar
+  - C:\Users\Dell E6420\IdeaProjects\2048\target\test-classes
+  - C:\Users\Dell E6420\IdeaProjects\2048\target\classes
+  - D:\IntelliJ IDEA Community Edition 2018.1.2\lib\junit-4.12.jar
+  - D:\IntelliJ IDEA Community Edition 2018.1.2\lib\hamcrest-core-1.3.jar
+  - C:\Users\Dell E6420\.m2\repository\junit\junit\4.12\junit-4.12.jar
+  - C:\Users\Dell E6420\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class com.company.GameBoard
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 6 tests from C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\evosuite-seeds\com.company.GameBoard.seed
+* Total number of test goals: 
+  - Line 187
+  - Branch 159
+  - Exception 0
+  - MutationFactory 911
+  - Output 6
+  - Method 5
+  - MethodNoException 5
+  - CBranchFitnessFactory 159
+* Using seed 1525833305409
+* Starting evolution
+* Search finished after 3489s and 153 generations, 8347 statements, best individual has fitness: 2178.6600441501105
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 10:35:29.828 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHOD] com.company.GameBoard.getTileX(I)I
+[MASTER] 10:35:31.404 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] com.company.GameBoard.<init>(II)V
+[MASTER] 10:35:31.404 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] com.company.GameBoard.getTileX(I)I
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 20%
+* Total number of goals: 187
+* Number of covered goals: 37
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 9%
+* Total number of goals: 159
+* Number of covered goals: 14
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 50%
+* Total number of goals: 2
+* Number of covered goals: 1
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 30%
+* Total number of goals: 911
+* Number of covered goals: 275
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 0%
+* Total number of goals: 6
+* Number of covered goals: 0
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 40%
+* Total number of goals: 5
+* Number of covered goals: 2
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 40%
+* Total number of goals: 5
+* Number of covered goals: 2
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 8%
+* Total number of goals: 159
+* Number of covered goals: 12
+* Generated 2 tests with total length 5
+* Resulting test suite's coverage: 23% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 11
+* Writing JUnit test case 'GameBoard_ESTest' to C:\Users\Dell E6420\IdeaProjects\2048\.evosuite\tmp_2018_05_09_09_34_48\tests
+* Done!
+
